@@ -105,9 +105,3 @@ docker run -p 8080:8080 seo-audit-ai
 ## 📌 Licenza
 
 MIT © 2025 - Creato per uso analitico e didattico.
-
----
-
-## ✨ Crediti
-
-Progetto sviluppato con GPT-4 e automazioni Python. Utilizza SerpAPI per l'analisi competitiva e wkhtmltopdf per il rendering dei report.
