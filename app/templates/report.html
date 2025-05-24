@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Report SEO AI</title>
+</head>
+<body>
+  {% if error %}
+    <p style="color: red;">{{ error }}</p>
+  {% else %}
+    <h1>Report SEO per {{ report.site }}</h1>
+    <p><strong>Homepage:</strong> {{ report.summary.homepage }}</p>
+    <h2>Meta Tag</h2>
+    <p>{{ report.meta }}</p>
+    <h2>Heading</h2>
+    <p>{{ report.headings }}</p>
+    <h2>Contenuti</h2>
+    <p>{{ report.content }}</p>
+    <h2>Link & Immagini</h2>
+    <p>{{ report.links_images }}</p>
+    <h2>Confronto Competitor</h2>
+    <p>{{ report.competitor_comparison }}</p>
+    <h2>Raccomandazioni</h2>
+    <p>{{ report.recommendations }}</p>
+  {% endif %}
+</body>
+</html>

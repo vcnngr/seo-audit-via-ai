@@ -1,0 +1,7 @@
+flask
+openai>=1.0.0
+beautifulsoup4
+requests
+html5lib
+markdown
+pdfkit

@@ -1,0 +1,1 @@
+# Placeholder di configurazione per variabili globali
